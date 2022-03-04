@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/number-icon-2.png" type="image/x-icon">
+</head>
+
+<body id="body">
+    <details class="howTo">
+        <summary>How to play?</summary>
+        There is a yellow box You have to click on it and enter a number. <br>
+        There is a button check ☑ click on it to check whether it is correct or not. <br>
+        If u enter a number and showing " too big" its mean the number that the computer store is greater than it. <br>
+        If u enter a number and showing "too samll" its mean the number that the computer store is smallerr than it.
+    </details>
+    <div class="password" id="div">
+        <div class="PassText">
+            Enter password
+        </div>
+        <input type="text" id="passNum" style="width: 4cm;">
+        <button id="input" onclick="pass()"> Enter</button>
+
+    </div>
+    <div class="headding">
+        Guess number between 0 and 20
+    </div>
+    <h4 class="score">
+        Chance: <h3 class="num" id="num"></h3>
+    </h4>
+    <input type="number" id="inp">
+    <button id="btn" onclick="fun()">
+        Check
+    </button>
+    <button class="again">
+        <a href="">Restart</a>
+    </button>
+    <div class="hint" id="hint"></div>
+</body>
+<script src="index.js"></script>
+
+</html>

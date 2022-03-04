@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.password {
+    width: 7cm;
+    height: 7cm;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+
+}
+
+.howTo {
+    font-family: 'Press Start 2P',
+        cursive;
+    padding: 5px 10px 5px;
+    position: absolute;
+    cursor: pointer;
+    background: gray;
+    border: 2px solid black;
+    top: 1.7cm;
+    z-index: 500;
+
+}
+
+details summary {
+    list-style: none;
+}
+
+summary {
+    background-color: #F6EB14;
+    padding: 5px 10px 5px;
+
+}
+
+.PassText {
+    position: absolute;
+    top: 2cm;
+    font-family: 'Press Start 2P',
+        cursive;
+    font-size: 15px;
+}
+
+body {
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4FAF44;
+    ;
+}
+
+.hint {
+    position: absolute;
+    top: 10cm;
+    font-family: 'Press Start 2P',
+        cursive;
+}
+
+.headding {
+    font-family: 'Press Start 2P',
+        cursive;
+    position: absolute;
+    top: 1cm;
+}
+
+.score {
+    position: absolute;
+    top: 4cm;
+    left: 39%;
+    font-family: 'Press Start 2P',
+        cursive;
+}
+
+.num {
+    position: absolute;
+    top: 4.5cm;
+    left: 47%;
+    font-family: 'Press Start 2P',
+        cursive;
+}
+
+input {
+    font-size: 20px;
+    width: 6cm;
+    height: 1cm;
+    font-family: 'Press Start 2P',
+        cursive;
+    background-color: #F6EB14;
+    /* color: white; */
+    border-radius: 0;
+}
+
+#btn {
+    height: 1.1cm;
+    font-family: 'Press Start 2P',
+        cursive;
+    background-color: grey;
+}
+
+#input {
+    height: 1.1cm;
+    font-family: 'Press Start 2P',
+        cursive;
+    background-color: grey;
+}
+
+.again {
+    top: 11cm;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Press Start 2P',
+        cursive;
+    /* background-color: transparent; */
+    border: 2px solid white;
+}
+
+@media screen and (min-width:580px) {
+    .headding {
+        font-family: 'Press Start 2P',
+            cursive;
+        position: absolute;
+        top: 1cm;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:464px) {
+    .headding {
+        font-family: 'Press Start 2P',
+            cursive;
+        position: absolute;
+        top: 1cm;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    input {
+        font-size: 15px;
+        width: 3cm;
+        height: 1cm;
+        font-family: 'Press Start 2P',
+            cursive;
+        background-color: #F6EB14;
+        /* color: white; */
+        border-radius: 0;
+    }
+
+    #btn {
+        height: 0.5cm;
+        font-family: 'Press Start 2P',
+            cursive;
+        background-color: grey;
+    }
+
+    .headding {
+        font-family: 'Press Start 2P',
+            cursive;
+        position: absolute;
+        top: 1cm;
+        font-size: 8px;
+    }
+}
